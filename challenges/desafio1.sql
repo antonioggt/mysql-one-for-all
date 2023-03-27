@@ -72,7 +72,7 @@ VALUES
 
 CREATE TABLE SpotifyClone.songs(
      song_id INT PRIMARY KEY AUTO_INCREMENT,
-     song_name VARCHAR(30) NOT NULL,
+     song_name VARCHAR(50) NOT NULL,
      duration INT NOT NULL,
      album_id INT NOT NULL,
      FOREIGN KEY (album_id) REFERENCES SpotifyClone.albuns(album_id)
