@@ -2,7 +2,7 @@ SELECT
     MIN(s.price) AS faturamento_minimo,
     MAX(s.price) AS faturamento_maximo,
     ROUND(AVG(s.price), 2) AS faturamento_medio,
-    SUM(p.price) AS faturamento_total
+    SUM(s.price) AS faturamento_total
 FROM
     subscription_type AS s
         INNER JOIN
