@@ -1,5 +1,5 @@
 SELECT
-    (u.user) AS pessoa_usuaria,
+    (u.user_name) AS pessoa_usuaria,
     COUNT(p.user_id) AS musicas_ouvidas,
     ROUND(SUM(s.duration) / 60, 2) AS total_minutos
 FROM
@@ -8,5 +8,5 @@ FROM
     playback_history p ON u.user_id = p.user_id
         INNER JOIN
     songs s ON p.song_id = s.song_id
-GROUP BY u.user
-ORDER BY u.user;
+GROUP BY u.user_name
+ORDER BY u.user_name;
