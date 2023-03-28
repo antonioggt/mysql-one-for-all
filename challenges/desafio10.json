@@ -1,4 +1,4 @@
 {
   "tabela_cancoes_favoritas": "favorite_songs",
-  "coluna_cancoes_favoritas": "favorite_songs_id"
+  "coluna_cancoes_favoritas": "song_id"
 }
