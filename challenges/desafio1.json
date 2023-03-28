@@ -1,7 +1,7 @@
 {
   "tabela_pessoas_usuarias": "users",
   "coluna_pessoas_usuarias": "user_id",
-  "tabela_plano": "subscrition_type",
+  "tabela_plano": "subscription_type",
   "coluna_plano": "subscription_type_id",
   "tabela_historico_de_reproducoes": "playback_history",
   "coluna_historico_de_reproducoes": "song_id",
